@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB51E74D1F3D5BD000BEFDED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB51E74C1F3D5BD000BEFDED /* main.m */; };
+		BB51E7501F3D5BD000BEFDED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB51E74F1F3D5BD000BEFDED /* AppDelegate.m */; };
+		BB51E7531F3D5BD000BEFDED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB51E7521F3D5BD000BEFDED /* ViewController.m */; };
+		BB51E7561F3D5BD000BEFDED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB51E7541F3D5BD000BEFDED /* Main.storyboard */; };
+		BB51E7581F3D5BD000BEFDED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB51E7571F3D5BD000BEFDED /* Assets.xcassets */; };
+		BB51E75B1F3D5BD000BEFDED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB51E7591F3D5BD000BEFDED /* LaunchScreen.storyboard */; };
+		BB51E7661F3D5BD000BEFDED /* CcPasswordBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB51E7651F3D5BD000BEFDED /* CcPasswordBoxTests.m */; };
+		BB51E7711F3D5BD100BEFDED /* CcPasswordBoxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB51E7701F3D5BD100BEFDED /* CcPasswordBoxUITests.m */; };
+		BB51E7831F3D5BFF00BEFDED /* PassWordCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB51E77F1F3D5BFF00BEFDED /* PassWordCollectionViewCell.m */; };
+		BB51E7841F3D5BFF00BEFDED /* PassWordView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB51E7811F3D5BFF00BEFDED /* PassWordView.m */; };
+		BB51E7851F3D5BFF00BEFDED /* PassWordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB51E7821F3D5BFF00BEFDED /* PassWordView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB51E7621F3D5BD000BEFDED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB51E7401F3D5BD000BEFDED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB51E7471F3D5BD000BEFDED;
+			remoteInfo = CcPasswordBox;
+		};
+		BB51E76D1F3D5BD000BEFDED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB51E7401F3D5BD000BEFDED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB51E7471F3D5BD000BEFDED;
+			remoteInfo = CcPasswordBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB51E7481F3D5BD000BEFDED /* CcPasswordBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CcPasswordBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB51E74C1F3D5BD000BEFDED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB51E74E1F3D5BD000BEFDED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB51E74F1F3D5BD000BEFDED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB51E7511F3D5BD000BEFDED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BB51E7521F3D5BD000BEFDED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BB51E7551F3D5BD000BEFDED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB51E7571F3D5BD000BEFDED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB51E75A1F3D5BD000BEFDED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB51E75C1F3D5BD000BEFDED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB51E7611F3D5BD000BEFDED /* CcPasswordBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CcPasswordBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB51E7651F3D5BD000BEFDED /* CcPasswordBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CcPasswordBoxTests.m; sourceTree = "<group>"; };
+		BB51E7671F3D5BD000BEFDED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB51E76C1F3D5BD000BEFDED /* CcPasswordBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CcPasswordBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB51E7701F3D5BD100BEFDED /* CcPasswordBoxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CcPasswordBoxUITests.m; sourceTree = "<group>"; };
+		BB51E7721F3D5BD100BEFDED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB51E77E1F3D5BFF00BEFDED /* PassWordCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassWordCollectionViewCell.h; sourceTree = "<group>"; };
+		BB51E77F1F3D5BFF00BEFDED /* PassWordCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassWordCollectionViewCell.m; sourceTree = "<group>"; };
+		BB51E7801F3D5BFF00BEFDED /* PassWordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassWordView.h; sourceTree = "<group>"; };
+		BB51E7811F3D5BFF00BEFDED /* PassWordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassWordView.m; sourceTree = "<group>"; };
+		BB51E7821F3D5BFF00BEFDED /* PassWordView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PassWordView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB51E7451F3D5BD000BEFDED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB51E75E1F3D5BD000BEFDED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB51E7691F3D5BD000BEFDED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB51E73F1F3D5BD000BEFDED = {
+			isa = PBXGroup;
+			children = (
+				BB51E74A1F3D5BD000BEFDED /* CcPasswordBox */,
+				BB51E7641F3D5BD000BEFDED /* CcPasswordBoxTests */,
+				BB51E76F1F3D5BD100BEFDED /* CcPasswordBoxUITests */,
+				BB51E7491F3D5BD000BEFDED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB51E7491F3D5BD000BEFDED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB51E7481F3D5BD000BEFDED /* CcPasswordBox.app */,
+				BB51E7611F3D5BD000BEFDED /* CcPasswordBoxTests.xctest */,
+				BB51E76C1F3D5BD000BEFDED /* CcPasswordBoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB51E74A1F3D5BD000BEFDED /* CcPasswordBox */ = {
+			isa = PBXGroup;
+			children = (
+				BB51E74E1F3D5BD000BEFDED /* AppDelegate.h */,
+				BB51E74F1F3D5BD000BEFDED /* AppDelegate.m */,
+				BB51E7511F3D5BD000BEFDED /* ViewController.h */,
+				BB51E7521F3D5BD000BEFDED /* ViewController.m */,
+				BB51E7861F3D5C0A00BEFDED /* PassWordView */,
+				BB51E7541F3D5BD000BEFDED /* Main.storyboard */,
+				BB51E7571F3D5BD000BEFDED /* Assets.xcassets */,
+				BB51E7591F3D5BD000BEFDED /* LaunchScreen.storyboard */,
+				BB51E75C1F3D5BD000BEFDED /* Info.plist */,
+				BB51E74B1F3D5BD000BEFDED /* Supporting Files */,
+			);
+			path = CcPasswordBox;
+			sourceTree = "<group>";
+		};
+		BB51E74B1F3D5BD000BEFDED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB51E74C1F3D5BD000BEFDED /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB51E7641F3D5BD000BEFDED /* CcPasswordBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB51E7651F3D5BD000BEFDED /* CcPasswordBoxTests.m */,
+				BB51E7671F3D5BD000BEFDED /* Info.plist */,
+			);
+			path = CcPasswordBoxTests;
+			sourceTree = "<group>";
+		};
+		BB51E76F1F3D5BD100BEFDED /* CcPasswordBoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB51E7701F3D5BD100BEFDED /* CcPasswordBoxUITests.m */,
+				BB51E7721F3D5BD100BEFDED /* Info.plist */,
+			);
+			path = CcPasswordBoxUITests;
+			sourceTree = "<group>";
+		};
+		BB51E7861F3D5C0A00BEFDED /* PassWordView */ = {
+			isa = PBXGroup;
+			children = (
+				BB51E7801F3D5BFF00BEFDED /* PassWordView.h */,
+				BB51E7811F3D5BFF00BEFDED /* PassWordView.m */,
+				BB51E7821F3D5BFF00BEFDED /* PassWordView.xib */,
+				BB51E77E1F3D5BFF00BEFDED /* PassWordCollectionViewCell.h */,
+				BB51E77F1F3D5BFF00BEFDED /* PassWordCollectionViewCell.m */,
+			);
+			name = PassWordView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB51E7471F3D5BD000BEFDED /* CcPasswordBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB51E7751F3D5BD100BEFDED /* Build configuration list for PBXNativeTarget "CcPasswordBox" */;
+			buildPhases = (
+				BB51E7441F3D5BD000BEFDED /* Sources */,
+				BB51E7451F3D5BD000BEFDED /* Frameworks */,
+				BB51E7461F3D5BD000BEFDED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CcPasswordBox;
+			productName = CcPasswordBox;
+			productReference = BB51E7481F3D5BD000BEFDED /* CcPasswordBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB51E7601F3D5BD000BEFDED /* CcPasswordBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB51E7781F3D5BD100BEFDED /* Build configuration list for PBXNativeTarget "CcPasswordBoxTests" */;
+			buildPhases = (
+				BB51E75D1F3D5BD000BEFDED /* Sources */,
+				BB51E75E1F3D5BD000BEFDED /* Frameworks */,
+				BB51E75F1F3D5BD000BEFDED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB51E7631F3D5BD000BEFDED /* PBXTargetDependency */,
+			);
+			name = CcPasswordBoxTests;
+			productName = CcPasswordBoxTests;
+			productReference = BB51E7611F3D5BD000BEFDED /* CcPasswordBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB51E76B1F3D5BD000BEFDED /* CcPasswordBoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB51E77B1F3D5BD100BEFDED /* Build configuration list for PBXNativeTarget "CcPasswordBoxUITests" */;
+			buildPhases = (
+				BB51E7681F3D5BD000BEFDED /* Sources */,
+				BB51E7691F3D5BD000BEFDED /* Frameworks */,
+				BB51E76A1F3D5BD000BEFDED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB51E76E1F3D5BD000BEFDED /* PBXTargetDependency */,
+			);
+			name = CcPasswordBoxUITests;
+			productName = CcPasswordBoxUITests;
+			productReference = BB51E76C1F3D5BD000BEFDED /* CcPasswordBoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB51E7401F3D5BD000BEFDED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = cccc;
+				TargetAttributes = {
+					BB51E7471F3D5BD000BEFDED = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					BB51E7601F3D5BD000BEFDED = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BB51E7471F3D5BD000BEFDED;
+					};
+					BB51E76B1F3D5BD000BEFDED = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BB51E7471F3D5BD000BEFDED;
+					};
+				};
+			};
+			buildConfigurationList = BB51E7431F3D5BD000BEFDED /* Build configuration list for PBXProject "CcPasswordBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB51E73F1F3D5BD000BEFDED;
+			productRefGroup = BB51E7491F3D5BD000BEFDED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB51E7471F3D5BD000BEFDED /* CcPasswordBox */,
+				BB51E7601F3D5BD000BEFDED /* CcPasswordBoxTests */,
+				BB51E76B1F3D5BD000BEFDED /* CcPasswordBoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB51E7461F3D5BD000BEFDED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB51E75B1F3D5BD000BEFDED /* LaunchScreen.storyboard in Resources */,
+				BB51E7581F3D5BD000BEFDED /* Assets.xcassets in Resources */,
+				BB51E7561F3D5BD000BEFDED /* Main.storyboard in Resources */,
+				BB51E7851F3D5BFF00BEFDED /* PassWordView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB51E75F1F3D5BD000BEFDED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB51E76A1F3D5BD000BEFDED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB51E7441F3D5BD000BEFDED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB51E7841F3D5BFF00BEFDED /* PassWordView.m in Sources */,
+				BB51E7531F3D5BD000BEFDED /* ViewController.m in Sources */,
+				BB51E7831F3D5BFF00BEFDED /* PassWordCollectionViewCell.m in Sources */,
+				BB51E7501F3D5BD000BEFDED /* AppDelegate.m in Sources */,
+				BB51E74D1F3D5BD000BEFDED /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB51E75D1F3D5BD000BEFDED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB51E7661F3D5BD000BEFDED /* CcPasswordBoxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB51E7681F3D5BD000BEFDED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB51E7711F3D5BD100BEFDED /* CcPasswordBoxUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB51E7631F3D5BD000BEFDED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB51E7471F3D5BD000BEFDED /* CcPasswordBox */;
+			targetProxy = BB51E7621F3D5BD000BEFDED /* PBXContainerItemProxy */;
+		};
+		BB51E76E1F3D5BD000BEFDED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB51E7471F3D5BD000BEFDED /* CcPasswordBox */;
+			targetProxy = BB51E76D1F3D5BD000BEFDED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB51E7541F3D5BD000BEFDED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB51E7551F3D5BD000BEFDED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB51E7591F3D5BD000BEFDED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB51E75A1F3D5BD000BEFDED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB51E7731F3D5BD100BEFDED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BB51E7741F3D5BD100BEFDED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB51E7761F3D5BD100BEFDED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CcPasswordBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cccc.CcPasswordBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB51E7771F3D5BD100BEFDED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CcPasswordBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cccc.CcPasswordBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BB51E7791F3D5BD100BEFDED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CcPasswordBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cccc.CcPasswordBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CcPasswordBox.app/CcPasswordBox";
+			};
+			name = Debug;
+		};
+		BB51E77A1F3D5BD100BEFDED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CcPasswordBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cccc.CcPasswordBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CcPasswordBox.app/CcPasswordBox";
+			};
+			name = Release;
+		};
+		BB51E77C1F3D5BD100BEFDED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CcPasswordBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cccc.CcPasswordBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CcPasswordBox;
+			};
+			name = Debug;
+		};
+		BB51E77D1F3D5BD100BEFDED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CcPasswordBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cccc.CcPasswordBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CcPasswordBox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB51E7431F3D5BD000BEFDED /* Build configuration list for PBXProject "CcPasswordBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB51E7731F3D5BD100BEFDED /* Debug */,
+				BB51E7741F3D5BD100BEFDED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB51E7751F3D5BD100BEFDED /* Build configuration list for PBXNativeTarget "CcPasswordBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB51E7761F3D5BD100BEFDED /* Debug */,
+				BB51E7771F3D5BD100BEFDED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BB51E7781F3D5BD100BEFDED /* Build configuration list for PBXNativeTarget "CcPasswordBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB51E7791F3D5BD100BEFDED /* Debug */,
+				BB51E77A1F3D5BD100BEFDED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BB51E77B1F3D5BD100BEFDED /* Build configuration list for PBXNativeTarget "CcPasswordBoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB51E77C1F3D5BD100BEFDED /* Debug */,
+				BB51E77D1F3D5BD100BEFDED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB51E7401F3D5BD000BEFDED /* Project object */;
+}
